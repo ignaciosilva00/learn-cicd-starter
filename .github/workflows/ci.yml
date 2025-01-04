@@ -24,7 +24,7 @@ jobs:
       - name: format
         run: test -z $(go fmt ./...)
   style:
-    name: style
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
